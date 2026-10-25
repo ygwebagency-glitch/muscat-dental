@@ -13,10 +13,11 @@ const jobs = [
 ];
 
 for (const [file, width] of jobs) {
-  const buf = await sharp(file)
+  const input = fs.readFileSync(file);
+  const buf = await sharp(input)
     .resize({ width, withoutEnlargement: true })
     .jpeg({ quality: 75, mozjpeg: true })
     .toBuffer();
   fs.writeFileSync(file, buf);
-  console.log(file, Math.round(buf.length / 1024) + " KB");
+  console.log(file, Math.round(input.length / 1024) + " KB ->", Math.round(buf.length / 1024) + " KB");
 }

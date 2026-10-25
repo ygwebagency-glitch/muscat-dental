@@ -881,3 +881,10 @@ a.ft-ct:hover .ft-ct-ico { transform: scale(1.15); }
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
 }
+
+/* Mobile: back-to-top button nahi dikhana */
+@media (max-width: 767px) {
+  .ft-top {
+    display: none;
+  }
+}

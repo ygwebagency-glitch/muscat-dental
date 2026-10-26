@@ -2,22 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title + description (client ki purani site wala) -->
+    <title>Muscat Dental Multan – Best Dentist in Multan for Pain-Free Dental Care</title>
+    <meta
+      name="description"
+      content="Located in the heart of North Gulgasht, Multan, our clinic combines modern dental technology with a compassionate approach for healthy, confident smiles."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://muscat-dental.netlify.app/" />
+    <meta name="theme-color" content="#0B3B3C" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/images/logo/apple-touch-icon.png" />
+
+    <!-- LinkedIn / WhatsApp / Facebook preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Muscat Dental Clinics" />
+    <meta property="og:locale" content="en_PK" />
+    <meta property="og:title" content="Muscat Dental Multan – Best Dentist in Multan for Pain-Free Dental Care" />
+    <meta
+      property="og:description"
+      content="Located in the heart of North Gulgasht, Multan, our clinic combines modern dental technology with a compassionate approach for healthy, confident smiles."
+    />
+    <meta property="og:url" content="https://muscat-dental.netlify.app/" />
+    <meta property="og:image" content="https://muscat-dental.netlify.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Muscat Dental Clinics, Gulgasht, Multan" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Muscat Dental Multan – Best Dentist in Multan for Pain-Free Dental Care" />
+    <meta
+      name="twitter:description"
+      content="Located in the heart of North Gulgasht, Multan, our clinic combines modern dental technology with a compassionate approach for healthy, confident smiles."
+    />
+    <meta name="twitter:image" content="https://muscat-dental.netlify.app/og-image.jpg" />
+
+    <!-- Local business schema (Google ko clinic ki details batata hai) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Muscat Dental Clinics",
+        "alternateName": "Muscat Dental Multan",
+        "url": "https://muscat-dental.netlify.app/",
+        "image": "https://muscat-dental.netlify.app/og-image.jpg",
+        "logo": "https://muscat-dental.netlify.app/images/logo/muscat-logo-512.png",
+        "telephone": "+92 300 7874031",
+        "email": "dr.siddiquesattar@gmail.com",
+        "medicalSpecialty": "Dentistry",
+        "areaServed": "Multan",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "11B Shaheena Avenue North, Gulgasht",
+          "addressLocality": "Multan",
+          "addressRegion": "Punjab",
+          "postalCode": "66000",
+          "addressCountry": "PK"
+        }
+      }
+    </script>
+
+    <!-- Fonts: 3 alag requests ki jagah ek (teeno fonts wahi hain jo pehle thin) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Mrs+Saint+Delafield&family=Noto+Nastaliq+Urdu:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hero image sab se pehle download ho -->
     <link rel="preload" as="image" href="/images/hero/hero-dentist-patient.jpg" fetchpriority="high" />
-    <link rel="apple-touch-icon" href="/images/logo/apple-touch-icon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400&display=swap" rel="stylesheet" />
-    <link rel="preload" as="image" href="/images/hero/hero-dentist-patient.jpg" fetchpriority="high" />
-    <title>client</title>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Muscat Dental Clinics, Multan</h1>
+      <p>Trusted dental care for every smile in Multan. 11B Shaheena Avenue North, Gulgasht, Multan.</p>
+      <p>Call or WhatsApp: +92 300 7874031</p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
